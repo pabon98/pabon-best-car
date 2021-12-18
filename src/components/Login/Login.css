@@ -1,0 +1,40 @@
+.loginFormMainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.loginFormDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 60%;
+}
+
+.loginForm__title {
+  text-align: center;
+  margin: 5% 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.loginForm {
+  padding: 0 10% 10% 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media screen and (max-width: 768px) {
+  .loginFormDiv {
+    width: 100%;
+  }
+  .loginFormMainDiv {
+    min-height: 80vh;
+  }
+}

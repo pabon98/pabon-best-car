@@ -1,0 +1,10 @@
+.add-car form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-car form input, textarea{
+    width: 40%;
+    margin-bottom: 12px;
+}

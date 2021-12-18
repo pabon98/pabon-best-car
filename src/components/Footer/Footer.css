@@ -1,0 +1,36 @@
+.icon:hover {
+    background-color: rgb(250, 25, 25);
+  }
+  .footer-menu {
+    color: rgb(240, 248, 255);
+   text-decoration: none;
+   list-style-type: none;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .footer-menu:hover {
+    color: red;
+  }
+  .footer-input {
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+  }
+  .footer-container {
+      background-image: url('../../images/footer-bg-2.jpg');
+    padding: 50px;
+    color: white;
+  }
+  .right-footer-container button{
+    background-color:rgb(0, 103, 184);
+  }
+  .right-footer-container button:hover{
+    background-color: rgba(65, 101, 211, 0.986);
+    color: antiquewhite;
+  }
+  .reserved{
+    margin-top: 20px;
+  }
